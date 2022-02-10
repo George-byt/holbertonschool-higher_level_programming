@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" 
+"""
 Python file that prints exactly:
 "Programming is like building a multilingual puzzle
 """
