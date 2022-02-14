@@ -2,4 +2,4 @@
 str1 = "Holberton"
 str2 = "School"
 space = " ";
-print("Welcome to {}!".format(str1 + space + str2))
+print("Welcome to {:s}!".format(str1 + space + str2))
