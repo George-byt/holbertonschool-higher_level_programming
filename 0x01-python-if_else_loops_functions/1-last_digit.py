@@ -10,4 +10,4 @@ if lastDigit > 5:
 if lastDigit == 0:
     print("0")
 else:
-    print("and is less than 6 and not 0")
+    print("and less than 6 and not 0")
