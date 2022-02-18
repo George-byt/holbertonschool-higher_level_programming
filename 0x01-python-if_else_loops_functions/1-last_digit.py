@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 import random
 number = random.randint(-10000, 10000)
 lastDigit = abs(number) % 10
@@ -10,4 +10,4 @@ if lastDigit > 5:
 if lastDigit == 0:
     print("0")
 else:
-    print("less than 6 and not 0")
+    print("and is less than 6 and not 0")
