@@ -1,6 +1,7 @@
 # 0x0D. SQL - Introduction
-
-# MySQL / SQL
+This repository contains sql files
+# Concepts
+# MySQL - SQL
 
 ## SQL
 Structure Query Language
@@ -18,4 +19,3 @@ data, & help in representation of data.
 * Relational
 * SQL
 * Object oriented
-
