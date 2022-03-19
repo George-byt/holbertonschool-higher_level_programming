@@ -36,3 +36,43 @@ data, & help in representation of data.
 * Relational
 * SQL
 * Object oriented
+
+## Types of JOINS
+* Inner Join
+`SELECT <columna_1> , <columna_2>,  <columna_3> ... <columna_n> 
+FROM Tabla_A A
+INNER JOIN Tabla_B B
+ON A.pk = B.pk`
+* Left Join
+`SELECT <columna_1> , <columna_2>,  <columna_3> ... <columna_n> 
+FROM Tabla_A A
+LEFT JOIN Tabla_B B
+ON A.pk = B.pk`
+* Right Join
+`SELECT <columna_1> , <columna_2>,  <columna_3> ... <columna_n>
+FROM Tabla_A A
+RIGHT JOIN Tabla_B B
+ON A.pk = B.pk`
+* Outer Join
+`SELECT <columna_1> , <columna_2>,  <columna_3> ... <columna_n>
+FROM Tabla_A A
+FULL OUTER JOIN Tabla_B B
+ON A.pk = B.pk`
+* Left excluding join
+`SELECT <columna_1> , <columna_2>,  <columna_3> ... <columna_n>
+FROM Tabla_A A
+LEFT JOIN Tabla_B B
+ON A.pk = B.pk
+WHERE B.pk IS NULL`
+* Right Excluding join
+`SELECT <columna_1> , <columna_2>,  <columna_3> ... <columna_n>
+FROM Tabla_A A
+RIGHT JOIN Tabla_B B
+ON A.pk = B.pk
+WHERE A.pk IS NULL`
+* Outer excluding join
+`SELECT <select_list>
+FROM Table_A A
+FULL OUTER JOIN Table_B B
+ON A.Key = B.Key
+WHERE A.Key IS NULL OR B.Key IS NULL`
