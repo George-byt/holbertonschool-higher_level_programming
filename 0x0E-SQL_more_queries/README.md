@@ -12,7 +12,8 @@
 
 | **COMMAND** | |
 | ------------- | ------------- |
-| SHOW GRANTS FOR *[user]*; | Display privileges for the named user, and does not include mandatory roles |
+| `CREATE USER IF NOT EXISTS 'user_name'@'localhost' IDENTIFIED BY 'password';` | Creates a new row in the mysql.user system table |
+| `SHOW GRANTS FOR user_name@localhost;` | Display privileges for the named user, and does not include mandatory roles |
 |||
 |||
 |||
