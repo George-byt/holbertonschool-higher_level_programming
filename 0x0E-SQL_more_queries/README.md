@@ -9,3 +9,7 @@
 * How to retrieve datas from multiple tables in one request
 * What are subqueries
 * What are `JOIN` and `UNION`
+
+| **COMMANDS** | |
+| ------------- | ------------- |
+|SHOW GRANTS FOR *[user]*; | Display privileges for the named user, and does not include mandatory roles |
