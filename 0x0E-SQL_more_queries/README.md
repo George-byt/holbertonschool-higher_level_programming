@@ -10,7 +10,7 @@
 * What are subqueries
 * What are `JOIN` and `UNION`
 
-| **COMMAND** | |
+| **STATEMENTS** | |
 | ------------- | ------------- |
 | `CREATE USER IF NOT EXISTS 'user_name'@'localhost' IDENTIFIED BY 'password';` | Creates a new row in the mysql.user system table |
 |`GRANT ALL PRIVILEGES ON *.* TO 'user_name'@'localhost'`|This statement assigns all privileges to MySQL server user.|
