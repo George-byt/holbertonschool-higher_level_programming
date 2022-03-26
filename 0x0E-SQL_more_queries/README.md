@@ -10,6 +10,13 @@
 * What are subqueries
 * What are `JOIN` and `UNION`
 
-| **COMMANDS** | |
+| **COMMAND** | |
 | ------------- | ------------- |
-|SHOW GRANTS FOR *[user]*; | Display privileges for the named user, and does not include mandatory roles |
+| SHOW GRANTS FOR *[user]*; | Display privileges for the named user, and does not include mandatory roles |
+|||
+|||
+|||
+|||
+|||
+|||
+|||
